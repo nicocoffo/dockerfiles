@@ -14,6 +14,7 @@ RUN \
   pip install python-dateutil && \
   pip install qtfaststart && \
   git clone git://github.com/mdhiggins/sickbeard_mp4_automator.git /sickbeard_mp4_automator/ && \ 
+  touch /sickbeard_mp4_automator/info.log && \
   chmod a+rwx -R /sickbeard_mp4_automator && \
   rm -rf \
 	/tmp/* \
